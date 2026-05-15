@@ -29,20 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: r.changeFrequency,
       priority: r.priority,
-      alternates: {
-        languages: {
-          [defaultLocale]: url,
-          "x-default": url,
-        },
-      },
     };
-
-    if (r.path === "/") {
-      entry.images = [
-        absoluteUrl(BRO44_LOGO.src),
-        `${origin}/opengraph-image`,
-      ];
-    }
 
     return entry;
   });
