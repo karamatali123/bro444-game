@@ -11,8 +11,8 @@ export default function GlobalJsonLd() {
   const org: Record<string, unknown> = {
     "@type": "Organization",
     "@id": `${origin}/#organization`,
-    name: "BRO444 Game",
-    alternateName: ["bro444 game", "BRO444", "bro444 game pakistan", "BRO444 Game Pakistan"],
+    name: "BRO444 Game App",
+    alternateName: ["bro444 game app", "BRO444 App", "bro444 game app pakistan", "BRO444 Game App Pakistan"],
     url: origin,
     logo: {
       "@type": "ImageObject",
@@ -22,10 +22,10 @@ export default function GlobalJsonLd() {
     },
     image: absoluteUrl(BRO44_LOGO.src),
     knowsAbout: [
-      "bro444 game pakistan",
-      "bro444 game bonuses",
-      "BRO444 Game APK",
-      "BRO444 lobby onboarding",
+      "bro444 game app pakistan",
+      "bro444 game app bonuses",
+      "BRO444 Game App APK",
+      "BRO444 app onboarding",
       "JazzCash gaming deposits",
       "Easypaisa withdrawals",
       "colour prediction Pakistan",
@@ -53,9 +53,9 @@ export default function GlobalJsonLd() {
         "@type": "WebSite",
         "@id": `${origin}/#website`,
         url: origin,
-        name: "BRO444 Game Pakistan — Official APK Download & Earning Guide 2026",
+        name: "BRO444 Game App — Download & Earn in Pakistan 2026",
         description:
-          "Official guide to BRO444 Game in Pakistan. Download the free APK, claim your 50% first deposit bonus, and withdraw earnings via JazzCash or Easypaisa in minutes. 500+ games including colour prediction, crash, lottery, and slots.",
+          "Official BRO444 Game App guide for Pakistan. Download the free APK, claim your welcome bonus, and cash out earnings via JazzCash or Easypaisa in minutes. 500+ games including colour prediction, crash, lottery, and slots.",
         publisher: { "@id": `${origin}/#organization` },
         inLanguage: "en-PK",
       },

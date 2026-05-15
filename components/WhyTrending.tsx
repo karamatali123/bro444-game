@@ -3,28 +3,28 @@ import { SmartphoneIcon, TrendingUpIcon, CreditCardIcon, GiftIcon, GlobeIcon } f
 const REASONS = [
   {
     icon: SmartphoneIcon,
-    title: "Pakistan's Mobile Gaming is Growing Fast",
-    body: "Millions of Pakistanis now own smartphones and look for engaging mobile entertainment every day. BRO444 is built exactly for this audience — light, fast, and easy to use on any Android phone.",
+    title: "Pakistan's Mobile Audience is Exploding",
+    body: "Over 190 million mobile connections power Pakistan's digital economy. BRO444 Game App is engineered for this audience — lightweight enough for entry-level Androids and optimised for patchy 3G/4G coverage.",
   },
   {
     icon: TrendingUpIcon,
-    title: "High Winning Ratio",
-    body: "All players can earn a good amount every day if they play responsibly. BRO444's transparent reward system means you always know what you can win before you start.",
+    title: "Transparent Earning Potential",
+    body: "Every game displays its reward structure upfront. Players know exactly what they can earn before placing a single PKR bet — no ambiguous multipliers or concealed conditions.",
   },
   {
     icon: CreditCardIcon,
-    title: "Fastest Local Transactions in Pakistan",
-    body: "BRO444 connects directly to JazzCash and Easypaisa — the two most-used mobile wallets in Pakistan. Withdrawals arrive in 1 to 5 minutes, not hours or days.",
+    title: "Fastest Mobile Wallet Payouts",
+    body: "BRO444 Game App integrates directly with JazzCash and Easypaisa — the wallets 80% of Pakistanis already use. Withdrawals typically clear within 1 to 5 minutes, not hours.",
   },
   {
     icon: GiftIcon,
-    title: "Daily Bonuses That Keep Players Coming Back",
-    body: "Daily check-in rewards, weekly missions, and special event bonuses make BRO444 more rewarding than any other earning app. There is always something new to claim.",
+    title: "Non-Stop Reward Cycles",
+    body: "Between daily login streaks, weekly missions, referral income, and seasonal promotions, there is always a fresh incentive waiting. Players rarely go a single day without claiming something.",
   },
   {
     icon: GlobeIcon,
-    title: "Full Urdu Language Support",
-    body: "Not everyone can read English. BRO444 offers a complete Urdu interface so every Pakistani player can use the app comfortably — no language barrier at all.",
+    title: "Bilingual Urdu + English Interface",
+    body: "Every screen, notification, and support chat is available in Urdu and English. Players switch freely — no translations lost, no features hidden behind a language wall.",
   },
 ];
 
@@ -42,11 +42,12 @@ export default function WhyTrending() {
             id="trending-title"
             className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
           >
-            Why <span className="text-primary">BRO444 Game</span> is Trending in Pakistan in 2026
+            Why <span className="text-primary">BRO444 Game App</span> is Pakistan&apos;s #1 Trending Earning Platform in 2026
           </h2>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            BRO444 taps into Pakistan's rapidly growing mobile internet user base. Rising interest in mobile earning
-            platforms and local payment support makes BRO444 the go-to choice for millions of Pakistani players.
+            Pakistan&apos;s smartphone penetration crossed 50% in 2026 and mobile-first earning platforms are riding the wave.
+            BRO444 Game App captures this market with local wallet support, Urdu-first design, and a reward system that
+            actually pays out — fast.
           </p>
         </div>
 

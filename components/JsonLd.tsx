@@ -6,8 +6,8 @@ const apkFull = absoluteUrl(APK_URL);
 const origin = SITE_URL.replace(/\/$/, "");
 const homeUrl = `${origin}/`;
 
-const DATE_PUBLISHED = "2026-01-01T00:00:00+05:00";
-const DATE_MODIFIED = "2026-05-14T00:00:00+05:00";
+const DATE_PUBLISHED = "2026-01-15T00:00:00+05:00";
+const DATE_MODIFIED = "2026-05-15T00:00:00+05:00";
 
 /**
  * Homepage-only @graph — pairs with `GlobalJsonLd` (Organization + WebSite on every layout).
@@ -30,9 +30,9 @@ export default function JsonLd() {
         "@type": "WebPage",
         "@id": `${origin}/#webpage`,
         url: homeUrl,
-        name: "BRO444 Game Official Earning APK for Android & iOS in Pakistan 2026",
+        name: "BRO444 Game App — Download Free Earning APK Pakistan 2026",
         description:
-          "Download BRO444 Game APK free for Android in Pakistan. Colour prediction, crash, K3 lottery, Teen Patti & slots. JazzCash & Easypaisa withdrawals in 5–30 minutes. Min deposit PKR 100. 14.89 MB APK, Android 6.0+.",
+          "Get BRO444 Game App free for Android in Pakistan. Colour prediction, crash, K3 lottery, Teen Patti & slots. JazzCash & Easypaisa payouts in 1–5 minutes. Min deposit PKR 100. 14.89 MB APK, Android 6.0+.",
         isPartOf: { "@id": `${origin}/#website` },
         publisher: { "@id": `${origin}/#organization` },
         inLanguage: "en-PK",
@@ -60,13 +60,13 @@ export default function JsonLd() {
           {
             "@type": "ListItem",
             position: 2,
-            name: "About BRO444 Game",
+            name: "About BRO444 Game App",
             item: `${homeUrl}#about`,
           },
           {
             "@type": "ListItem",
             position: 3,
-            name: "Download BRO444 APK",
+            name: "Install BRO444 App APK",
             item: `${homeUrl}#download`,
           },
           {
@@ -84,7 +84,7 @@ export default function JsonLd() {
           {
             "@type": "ListItem",
             position: 6,
-            name: "FAQ — BRO444 Game Pakistan",
+            name: "FAQ — BRO444 Game App Pakistan",
             item: `${homeUrl}#faq`,
           },
         ],
@@ -92,15 +92,15 @@ export default function JsonLd() {
       {
         "@type": "MobileApplication",
         "@id": `${origin}/#mobile-app`,
-        name: "BRO444 Game",
+        name: "BRO444 Game App",
         alternateName: [
-          "bro444 game",
-          "BRO444 Game Pakistan",
-          "bro444 apk",
-          "BRO444 APK",
+          "bro444 game app",
+          "BRO444 Game App Pakistan",
+          "bro444 app",
+          "BRO444 App",
         ],
         description:
-          "BRO444 Game earning app for Pakistan — colour prediction, K3 & 5D lottery, crash, Teen Patti, Dragon Tiger, Andar Bahar, slots and more. JazzCash & Easypaisa withdrawals in 5–30 minutes. Min deposit PKR 100. 14.89 MB APK. Install from the official site only.",
+          "BRO444 Game App earning platform for Pakistan — colour prediction, K3 & 5D lottery, crash, Teen Patti, Dragon Tiger, Andar Bahar, slots and more. JazzCash & Easypaisa payouts in 1–5 minutes. Min deposit PKR 100. 14.89 MB APK. Install from the official site only.",
         operatingSystem: "Android 6.0+",
         softwareRequirements: "Android 6.0 (Marshmallow) or higher; 1 GB RAM minimum; 50 MB free storage; 3G, 4G, or Wi-Fi internet connection",
         fileSize: "14.89 MB",
@@ -122,8 +122,8 @@ export default function JsonLd() {
       {
         "@type": "ItemList",
         "@id": `${origin}/#game-categories`,
-        name: "BRO444 Game Categories",
-        description: "500+ games across 8 categories available on BRO444 Game in Pakistan",
+        name: "BRO444 Game App Categories",
+        description: "500+ games across 8 categories available on BRO444 Game App in Pakistan",
         numberOfItems: 8,
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Hot Games" },
@@ -140,9 +140,9 @@ export default function JsonLd() {
         "@type": "HowTo",
         "@id": `${origin}/#howto-install`,
         url: `${homeUrl}#download`,
-        name: "How to Download and Install BRO444 Game APK on Android",
+        name: "How to Download and Install BRO444 Game App APK on Android",
         description:
-          "Step-by-step guide to download and install BRO444 Game APK on any Android phone in Pakistan.",
+          "Step-by-step guide to download and install BRO444 Game App APK on any Android phone in Pakistan.",
         totalTime: "PT5M",
         estimatedCost: {
           "@type": "MonetaryAmount",
@@ -167,7 +167,7 @@ export default function JsonLd() {
             "@type": "HowToStep",
             position: 1,
             name: "Tap the Download button",
-            text: `Visit this page and tap the Download BRO444 button. It will take you to the official APK download at ${apkFull}.`,
+            text: `Visit this page and tap the Download BRO444 App button. It will take you to the official APK download at ${apkFull}.`,
             url: apkFull,
           },
           {
@@ -180,7 +180,7 @@ export default function JsonLd() {
             "@type": "HowToStep",
             position: 3,
             name: "Open the downloaded APK file",
-            text: "Open your Downloads folder or the notification bar and tap the BRO444 APK file to begin installation.",
+            text: "Open your Downloads folder or the notification bar and tap the BRO444 Game App APK file to begin installation.",
           },
           {
             "@type": "HowToStep",
@@ -192,7 +192,7 @@ export default function JsonLd() {
             "@type": "HowToStep",
             position: 5,
             name: "Register your account",
-            text: "Open BRO444 Game, tap Register, enter your mobile number, verify with OTP, and set a strong password. Your account is ready.",
+            text: "Open BRO444 Game App, tap Register, enter your mobile number, verify with OTP, and set a strong password. Your account is ready.",
           },
         ],
       },

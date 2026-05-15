@@ -1,27 +1,27 @@
 import { WalletIcon, ArrowDownToLineIcon, ArrowUpFromLineIcon, ClockIcon } from "lucide-react";
 
 const DEPOSIT_STEPS = [
-  { n: "01", text: "Log in to your BRO444 account using your phone number and password." },
-  { n: "02", text: "Tap the Wallet icon at the bottom of the screen." },
-  { n: "03", text: "Select Deposit and choose EasyPaisa or JazzCash as your payment method." },
-  { n: "04", text: "Enter the amount you want to deposit and confirm the transaction." },
-  { n: "05", text: "Complete the payment through your EasyPaisa or JazzCash mobile wallet." },
-  { n: "06", text: "Your game wallet is updated instantly — start playing right away." },
+  { n: "01", text: "Open BRO444 Game App and sign in with your phone number and password." },
+  { n: "02", text: "Navigate to the Wallet tab visible at the bottom of your screen." },
+  { n: "03", text: "Tap Deposit and pick either EasyPaisa or JazzCash as your funding method." },
+  { n: "04", text: "Key in your desired deposit amount — minimum PKR 100 — and confirm." },
+  { n: "05", text: "Authorise the payment through your mobile wallet app or USSD prompt." },
+  { n: "06", text: "Your in-app balance updates instantly — you can start playing immediately." },
 ];
 
 const WITHDRAW_STEPS = [
-  { n: "01", text: "Go to the Wallet section inside the BRO444 app." },
-  { n: "02", text: "Tap Withdrawal and enter the amount you want to cash out." },
-  { n: "03", text: "Select EasyPaisa or JazzCash as your withdrawal method." },
-  { n: "04", text: "Confirm the request by entering your 6-digit withdrawal PIN." },
-  { n: "05", text: "Funds arrive in your mobile wallet within 5 to 30 minutes." },
+  { n: "01", text: "Open the Wallet section inside BRO444 Game App." },
+  { n: "02", text: "Select Withdraw and type the amount you wish to cash out." },
+  { n: "03", text: "Choose EasyPaisa, JazzCash, or bank transfer as your withdrawal channel." },
+  { n: "04", text: "Enter your personal 6-digit withdrawal PIN to authorise the request." },
+  { n: "05", text: "Funds land in your mobile wallet typically within 1 to 5 minutes." },
 ];
 
 const PAYMENT_INFO = [
-  { icon: WalletIcon, label: "Supported Methods", value: "JazzCash · Easypaisa · Bank" },
+  { icon: WalletIcon, label: "Accepted Methods", value: "JazzCash · Easypaisa · Bank" },
   { icon: ArrowDownToLineIcon, label: "Min Deposit", value: "PKR 100" },
   { icon: ArrowUpFromLineIcon, label: "Min Withdrawal", value: "PKR 500" },
-  { icon: ClockIcon, label: "Withdrawal Time", value: "5–30 Minutes" },
+  { icon: ClockIcon, label: "Avg Withdrawal", value: "1–5 Minutes" },
 ];
 
 export default function Payments() {
@@ -38,11 +38,12 @@ export default function Payments() {
             id="payments-title"
             className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
           >
-            BRO444 Deposit &amp; Withdrawal — Easy Guide for New Players
+            BRO444 Game App Deposit &amp; Withdrawal — Step-by-Step for New Players
           </h2>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            BRO444 works with EasyPaisa and JazzCash — no bank account needed. Deposit from PKR 100 and withdraw
-            your winnings straight to your mobile wallet in minutes.
+            BRO444 Game App connects natively to EasyPaisa and JazzCash — no traditional bank account required.
+            Fund your wallet from as little as PKR 100 and cash out your earnings directly to your mobile
+            wallet in minutes.
           </p>
         </div>
 
@@ -65,7 +66,7 @@ export default function Payments() {
               <span className="flex size-10 items-center justify-center rounded-xl bg-green-500/15 text-green-500">
                 <ArrowDownToLineIcon className="size-5" aria-hidden />
               </span>
-              <h3 className="font-heading text-lg font-bold text-foreground">How to Deposit</h3>
+              <h3 className="font-heading text-lg font-bold text-foreground">How to Add Funds</h3>
             </div>
             <ol className="mt-5 space-y-3">
               {DEPOSIT_STEPS.map((s) => (
@@ -78,7 +79,7 @@ export default function Payments() {
               ))}
             </ol>
             <div className="mt-5 rounded-xl border border-green-500/30 bg-green-500/8 px-4 py-3 text-xs text-green-600 dark:text-green-400">
-              ✓ Deposits are added to your wallet instantly
+              ✓ Deposits reflect in your game wallet immediately
             </div>
           </div>
 
@@ -88,7 +89,7 @@ export default function Payments() {
               <span className="flex size-10 items-center justify-center rounded-xl bg-primary/15 text-primary">
                 <ArrowUpFromLineIcon className="size-5" aria-hidden />
               </span>
-              <h3 className="font-heading text-lg font-bold text-foreground">How to Withdraw</h3>
+              <h3 className="font-heading text-lg font-bold text-foreground">How to Cash Out</h3>
             </div>
             <ol className="mt-5 space-y-3">
               {WITHDRAW_STEPS.map((s) => (
@@ -101,7 +102,7 @@ export default function Payments() {
               ))}
             </ol>
             <div className="mt-5 rounded-xl border border-primary/30 bg-primary/8 px-4 py-3 text-xs text-foreground/80">
-              ✓ Most withdrawals arrive in 5–30 minutes. Set a 6-digit PIN to protect your wallet.
+              ✓ Most cashouts arrive in 1–5 minutes. Always set a 6-digit PIN to protect your wallet.
             </div>
           </div>
         </div>

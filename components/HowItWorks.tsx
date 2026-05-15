@@ -4,26 +4,26 @@ const STEPS = [
   {
     n: "1",
     icon: DownloadIcon,
-    title: "Download BRO444 APK (under 12 MB)",
-    body: "Tap the Download button on this page to get the official BRO444 APK. The file is under 12 MB — it downloads in under 30 seconds on 3G. Works on Android 6.0+ phones including Tecno Spark, Infinix Hot, and Redmi A-series.",
+    title: "Get the BRO444 Game App APK (14.89 MB)",
+    body: "Tap the Download button on this page to grab the official BRO444 Game App installer. At just 14.89 MB, it downloads in well under a minute — even on a basic 3G connection. Compatible with Android 6.0+ devices including Tecno Spark, Infinix Hot, and Redmi A-series.",
   },
   {
     n: "2",
     icon: LogInIcon,
-    title: "Register with your Pakistani number",
-    body: "Open the app and tap Register. Enter your Jazz, Telenor, Zong, or Ufone number, enter the SMS OTP, set a password, and optionally add a referral code. Full signup takes under 2 minutes.",
+    title: "Sign up with your PK mobile number",
+    body: "Open BRO444 Game App and tap Register. Enter your Jazz, Telenor, Zong, or Ufone number, verify via SMS OTP, create a password, and optionally enter a referral code. The entire process takes under two minutes.",
   },
   {
     n: "3",
     icon: WalletIcon,
-    title: "Deposit via JazzCash or Easypaisa",
-    body: "Open the cashier and deposit from PKR 200 using JazzCash or Easypaisa. Your balance reflects instantly. Set your 6-digit withdrawal PIN before playing — it protects your wallet separately from your login.",
+    title: "Fund your wallet via JazzCash or Easypaisa",
+    body: "Head to the wallet section and deposit starting from PKR 100 using JazzCash or Easypaisa. Your balance updates instantly. Set your personal 6-digit withdrawal PIN right away — it secures your wallet independently from your login password.",
   },
   {
     n: "4",
     icon: ZapIcon,
-    title: "Play & withdraw to your wallet",
-    body: "Pick any of the 8 game modes — colour prediction, crash, lottery, or live cards. When you win, withdraw to JazzCash or Easypaisa from PKR 500 minimum. Most payouts arrive in under 5 minutes.",
+    title: "Play games & cash out in minutes",
+    body: "Choose from 8 game categories — colour prediction, crash rounds, lottery draws, or live card tables. When you're ready, withdraw from PKR 500 minimum to JazzCash or Easypaisa. Payouts typically arrive in 1 to 5 minutes.",
   },
 ] as const;
 
@@ -41,10 +41,12 @@ export default function HowItWorks() {
             id="how-earn-title"
             className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
           >
-            How to Download &amp; Play <span className="text-primary">BRO444 Game</span> in Pakistan
+            How to Download &amp; Play <span className="text-primary">BRO444 Game App</span> in Pakistan
           </h2>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            Four steps from download to your first withdrawal — no Telegram links, no fake mirrors. BRO444 Game installs in under 60 seconds on any Android 6.0+ phone with at least 1 GB RAM and 50 MB free storage.
+            Four simple steps from download to your first cashout — no Telegram links, no suspicious mirrors.
+            BRO444 Game App installs in under 60 seconds on any Android 6.0+ phone with at least 1 GB RAM
+            and 50 MB of free storage.
           </p>
         </div>
 

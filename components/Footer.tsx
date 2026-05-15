@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div>
             <p id="footer-title" className="font-heading text-lg font-semibold">
-              BRO444 Game
+              BRO444 Game App
             </p>
             <p className="mt-2 text-sm text-muted-foreground">
               Official website:{" "}
@@ -90,7 +90,7 @@ export default function Footer() {
         </div>
         <Separator className="my-8" />
         <p className="text-xs text-muted-foreground">
-          © {year} BRO444 Game · Play responsibly · 18+ where required by law.
+          © {year} BRO444 Game App · Play responsibly · 18+ where required by law.
         </p>
       </div>
     </footer>

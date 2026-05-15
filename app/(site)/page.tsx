@@ -19,14 +19,14 @@ import FinalRemarks from "@/components/FinalRemarks";
 import FAQ from "@/components/FAQ";
 
 export const metadata: Metadata = {
-  title: "BRO444 Game Official Earning APK for Android & iOS in Pakistan 2026",
+  title: "BRO444 Game App — Official Free Earning APK for Android & iOS Pakistan 2026",
   description:
-    "Download BRO444 Game APK free for Android and iOS in Pakistan. Get 50% first deposit bonus. Play colour prediction, crash, K3 lottery, Teen Patti & slots. JazzCash & Easypaisa withdrawals in minutes. Min deposit PKR 100.",
+    "Download BRO444 Game App APK free for Android and iOS in Pakistan. Get a welcome deposit bonus up to 50%. Play colour prediction, crash, K3 lottery, Teen Patti & slots. JazzCash & Easypaisa withdrawals in 1–5 minutes. Min deposit PKR 100.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "BRO444 Game Official Earning APK for Android & iOS in Pakistan 2026",
+    title: "BRO444 Game App — Official Free Earning APK for Android & iOS Pakistan 2026",
     description:
-      "BRO444 Game — Pakistan's top earning app. 500+ games, 50% welcome bonus, JazzCash & Easypaisa withdrawals in 5–30 minutes. Free download. Min deposit PKR 100.",
+      "BRO444 Game App — Pakistan's trusted earning platform. 500+ games, welcome deposit bonus, JazzCash & Easypaisa withdrawals in minutes. Free download. Min deposit PKR 100.",
     url: "/",
     type: "website",
   },

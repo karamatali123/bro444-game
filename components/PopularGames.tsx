@@ -36,11 +36,12 @@ export default function PopularGames() {
               id="popular-games-title"
               className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl"
             >
-              Popular Games You Can Play on <span className="text-primary">BRO444</span>
+              Most Played Games on <span className="text-primary">BRO444 Game App</span>
             </h2>
             <p className="mt-4 text-muted-foreground md:text-lg">
-              From colour prediction to live dealer, crash to fishing — here are the most played games on BRO444
-              right now. All games use one shared PKR balance and start from as little as PKR 10.
+              Colour prediction, crash rounds, live dealer tables, fishing challenges, and classic slots — these
+              are the titles BRO444 Game App players in Pakistan keep coming back to. All games share a unified
+              PKR balance with bets starting from just PKR 10.
             </p>
           </div>
           <a
@@ -55,7 +56,7 @@ export default function PopularGames() {
 
         <ul
           className="mt-10 flex flex-wrap gap-3"
-          aria-label="Popular games on BRO444"
+          aria-label="Popular games on BRO444 Game App"
         >
           {GAMES.map((game, i) => (
             <li key={game}>
@@ -71,10 +72,10 @@ export default function PopularGames() {
         {/* Stats row */}
         <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
           {[
-            { v: "500+", label: "Total Games" },
+            { v: "500+", label: "Games Available" },
             { v: "8", label: "Game Categories" },
             { v: "PKR 10", label: "Minimum Bet" },
-            { v: "24/7", label: "Games Running" },
+            { v: "24/7", label: "Always Running" },
           ].map((x) => (
             <div
               key={x.label}

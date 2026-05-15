@@ -5,12 +5,12 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const VERDICT_POINTS = [
-  "Free to download — no upfront cost or subscription",
-  "JazzCash and Easypaisa withdrawals in 5 to 30 minutes",
-  "500+ games across 8 categories all in one app",
-  "50% first deposit bonus for every new player",
-  "Full Urdu interface and 24/7 Urdu live support",
-  "Referral commissions paid directly — no turnover needed",
+  "Completely free download — zero subscription or hidden charges",
+  "JazzCash and Easypaisa payouts processed in 1 to 5 minutes",
+  "500+ games spanning 8 categories in one compact APK",
+  "Welcome deposit reward up to 50% for every new player",
+  "Bilingual Urdu and English interface with round-the-clock live support",
+  "Referral earnings withdrawable instantly — no wagering requirement",
 ];
 
 export default function FinalRemarks() {
@@ -26,27 +26,27 @@ export default function FinalRemarks() {
           id="final-title"
           className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl"
         >
-          Is <span className="text-primary">BRO444 Game</span> Worth It?
+          Is <span className="text-primary">BRO444 Game App</span> Worth Downloading?
         </h2>
 
         <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
           <p>
-            BRO444 Game stands as one of the most complete mobile gaming platforms available in Pakistan today. It
-            combines entertainment, reliability, local payment support, and attractive rewards in one place. Its
-            free-to-download nature removes any financial risk for first-time users — there is no reason not to
-            try it at least once.
+            BRO444 Game App has earned its reputation as one of the most well-rounded mobile earning platforms
+            accessible to Pakistani players in 2026. It bundles entertainment, reliable payment processing, local
+            wallet integration, and generous incentive programmes into a single lightweight installation. Because
+            the download is free, there is genuinely zero barrier to trying it out.
           </p>
           <p>
-            BRO444 tailors its entire experience to the Pakistani market. Promotions align with Pakistani culture,
-            holidays, and major cricket events throughout the year. The withdrawal system is faster and more reliable
-            than most other earning apps. BRO444 stands as Pakistan's most trusted and rewarding mobile gaming
-            platform in 2026.
+            The platform&apos;s entire reward calendar is built around Pakistani culture — from Eid bonus rounds and
+            PSL cricket specials to Independence Day flash events. Withdrawal processing consistently outperforms
+            competing apps, with most JazzCash and Easypaisa cashouts completing in under five minutes. For
+            Pakistani players seeking a trustworthy and rewarding mobile platform, BRO444 Game App delivers.
           </p>
         </div>
 
         {/* Verdict checklist */}
         <div className="mt-8 rounded-2xl border border-primary/30 bg-primary/8 p-6">
-          <p className="font-heading text-base font-bold text-foreground">Why BRO444 is Worth Downloading</p>
+          <p className="font-heading text-base font-bold text-foreground">Why BRO444 Game App is Worth Your Time</p>
           <ul className="mt-4 grid gap-2.5 sm:grid-cols-2">
             {VERDICT_POINTS.map((point) => (
               <li key={point} className="flex items-start gap-2.5">
@@ -61,16 +61,17 @@ export default function FinalRemarks() {
         <div className="mt-6 rounded-2xl border border-destructive/30 bg-destructive/8 p-5">
           <p className="text-sm font-bold text-foreground">Important: Play Responsibly</p>
           <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-            BRO444 is a real-money earning game — you can win PKR, but you can also lose it. Never consider this
-            platform as a permanent source of income. Only play with money you can afford to lose. If played
-            responsibly, BRO444 can generate a good daily side income. We wish you good luck.
+            BRO444 Game App involves real money — wins generate PKR income, but losses are equally real. This
+            platform should never be treated as a primary income source. Deposit only what you can comfortably
+            afford to lose, set daily spending limits, and take breaks regularly. Played responsibly, BRO444
+            Game App can serve as an enjoyable side-earning channel. We wish you the best of luck.
           </p>
         </div>
 
         {/* CTA */}
         <div className="mt-10 flex flex-col items-center gap-4 text-center">
           <p className="font-heading text-xl font-bold text-foreground">
-            Ready to start earning? Download BRO444 today — it&apos;s free.
+            Ready to start earning? Get BRO444 Game App today — it&apos;s completely free.
           </p>
           <a
             href={APK_URL}
@@ -79,10 +80,10 @@ export default function FinalRemarks() {
             className={cn(buttonVariants({ size: "lg" }), "gap-2 px-8 shadow-lg shadow-primary/20")}
           >
             <DownloadIcon className="size-5" aria-hidden />
-            Download BRO444 Game — Free
+            Download BRO444 Game App — Free
           </a>
           <p className="text-xs text-muted-foreground">
-            Android 6.0+ · 14.89 MB · JazzCash &amp; Easypaisa · 50% first deposit bonus
+            Android 6.0+ · 14.89 MB · JazzCash &amp; Easypaisa · Welcome deposit bonus
           </p>
         </div>
       </div>

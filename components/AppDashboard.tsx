@@ -5,7 +5,7 @@ const DASHBOARD = {
   w: 506,
   h: 1024,
   alt:
-    "BRO444.com mobile lobby dashboard on a dark teal canvas: top strip with BRO444 branding, PKR promo stars, yellow Download closeable banner; header with BRO444.com title, balance Rs 0.00 with refresh and avatar; carousel promo banner with pagination; orange Deposit and Withdraw shortcuts; HOT GAMES horizontal categories; grid of casino titles including Aviator, Money Coming, FlyX and more with vendor labels; floating Facebook, Telegram, WhatsApp and support shortcuts; fixed bottom navigation for Home, Promotion, Invite (center highlighted), Reward with notification dot, and Member.",
+    "BRO444 Game App mobile lobby dashboard on a dark teal canvas: top strip with BRO444 branding, PKR promo stars, yellow Download closeable banner; header with BRO444 title, balance Rs 0.00 with refresh and avatar; carousel promo banner with pagination; orange Deposit and Withdraw shortcuts; HOT GAMES horizontal categories; grid of casino titles including Aviator, Money Coming, FlyX and more with vendor labels; floating Facebook, Telegram, WhatsApp and support shortcuts; fixed bottom navigation for Home, Promotion, Invite (center highlighted), Reward with notification dot, and Member.",
 };
 
 export default function AppDashboard() {
@@ -24,19 +24,19 @@ export default function AppDashboard() {
             id="app-dashboard-title"
             className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl"
           >
-            Game dashboard &amp; lobby on <span className="text-primary">BRO444.com</span>
+            Game Dashboard &amp; Lobby on <span className="text-primary">BRO444 Game App</span>
           </h2>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            Deposit, withdraw, and rip through HOT GAMES without juggling five APKs. Bottom nav jumps between Home,
-            Promotion, Invite, Reward, and Member — exactly the flow bro444 TikToks screenshot when they flex balances.
-            Promotional upside: carousel banners refresh with new drops; editorial honesty: always tap balances twice
-            before sizing up stakes.
+            Deposit, withdraw, and browse hundreds of games without switching between multiple apps. The bottom
+            navigation lets you jump between Home, Promotion, Invite, Reward, and Member sections in a single
+            tap — the exact flow you see in BRO444 Game App promotional content. Carousel banners refresh with
+            new bonus drops; always double-check your balance before sizing up stakes.
           </p>
         </div>
 
         <figure className="mt-12 mx-auto max-w-lg rounded-2xl border border-border/80 bg-muted/25 p-4 shadow-sm md:max-w-xl">
           <figcaption className="mb-4 text-center font-heading font-semibold text-foreground">
-            BRO444.com — home lobby (mobile)
+            BRO444 Game App — Home Lobby (Mobile)
           </figcaption>
           <div className="flex w-full justify-center rounded-xl border border-border/60 bg-black/40 p-2 shadow-lg">
             <Image

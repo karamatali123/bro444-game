@@ -16,11 +16,11 @@ const PRIMARY: { href: string; label: string }[] = [
 
 const MORE: { href: string; label: string }[] = [
   { href: "/#features", label: "20 Reasons to Play" },
-  { href: "/#screenshots", label: "App Screenshots" },
-  { href: "/#login", label: "Register & Login" },
+  { href: "/#screenshots", label: "Screenshots" },
+  { href: "/#login", label: "Sign Up & Login" },
   { href: "/#referral", label: "Referral & VIP" },
   { href: "/#compare", label: "Pros & Cons" },
-  { href: "/#review", label: "Reviews" },
+  { href: "/#review", label: "Player Reviews" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];

@@ -7,43 +7,43 @@ import {
 const TIPS = [
   {
     icon: TrendingDownIcon,
-    title: "Start Small",
-    body: "Begin with low-stakes games to learn how each game works before increasing your bets.",
+    title: "Begin With Low Stakes",
+    body: "Use minimum bets to understand each game's mechanics before committing larger amounts. Familiarity reduces risk.",
   },
   {
     icon: GiftIcon,
-    title: "Claim All Bonuses",
-    body: "Never let unclaimed bonuses expire. Check the promotions page inside the app every day.",
+    title: "Never Miss a Bonus",
+    body: "Unclaimed bonuses expire silently. Open the BRO444 Game App promotions tab first thing every morning to capture every reward.",
   },
   {
     icon: LayersIcon,
-    title: "Use the Referral Program",
-    body: "Share your link actively to build a reliable passive income. Referral earnings can be withdrawn directly.",
+    title: "Leverage the Referral System",
+    body: "Every friend you invite generates commission income that flows directly into your wallet — no play-through needed to withdraw it.",
   },
   {
     icon: ShieldCheckIcon,
-    title: "Set Winning and Loss Limits",
-    body: "Decide your daily limit before you start. Stop playing once you hit your preset winning or loss amount.",
+    title: "Pre-Set Daily Limits",
+    body: "Before your first game of the day, decide your maximum deposit and loss ceiling. Stop immediately once either limit is reached.",
   },
   {
     icon: BadgeCheckIcon,
-    title: "Try All Game Categories",
-    body: "Explore different games to find which ones suit your style. BRO444 has 8 categories and 500+ games.",
+    title: "Explore Every Category",
+    body: "BRO444 Game App offers 8 categories and 500+ titles. Diversifying your gameplay helps you discover where your best returns lie.",
   },
   {
     icon: GiftIcon,
-    title: "Check Promotions First",
-    body: "Always review active promotions before depositing so you can maximize your bonus credits.",
+    title: "Stack Promotions Strategically",
+    body: "Time your deposits to coincide with active promotions. Festival bonuses and weekly missions can multiply your effective balance significantly.",
   },
   {
     icon: ArrowUpFromLineIcon,
-    title: "Withdraw Regularly",
-    body: "Set a target balance and withdraw as soon as you reach it. Don't let winnings sit — cash out often.",
+    title: "Cash Out Frequently",
+    body: "Set a profit target and withdraw the moment you reach it. Frequent small withdrawals protect your earnings better than letting a balance accumulate.",
   },
   {
     icon: HeadphonesIcon,
-    title: "Contact Support Early",
-    body: "If you notice any issue with your account or wallet, contact Urdu live support immediately. Don't wait.",
+    title: "Report Issues Immediately",
+    body: "If a transaction stalls or your balance looks incorrect, contact BRO444's Urdu live support without delay. Early reports resolve faster.",
   },
 ];
 
@@ -63,11 +63,12 @@ export default function SafetyTips() {
               id="safety-title"
               className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
             >
-              Tips to Play <span className="text-primary">BRO444 Game</span> Safely
+              Smart Tips for Playing <span className="text-primary">BRO444 Game App</span> Safely
             </h2>
             <p className="mt-4 text-muted-foreground md:text-lg">
-              Smart players always set a daily budget before they start. Claiming daily bonuses and using the
-              referral program are the best ways to earn without taking unnecessary risks.
+              The most successful players on BRO444 Game App share one habit — they set boundaries before they
+              play. Combine daily bonuses, referral income, and disciplined bankroll management to earn
+              consistently without unnecessary risk.
             </p>
 
             <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -93,7 +94,7 @@ export default function SafetyTips() {
             <div className="overflow-hidden rounded-2xl border border-border/60 shadow-xl">
               <Image
                 src="/images/safety-tips.webp"
-                alt="BRO444 Game safety tips for Pakistani players"
+                alt="BRO444 Game App safety and responsible play tips for Pakistani players"
                 width={600}
                 height={400}
                 className="h-auto w-full object-cover"
@@ -103,14 +104,16 @@ export default function SafetyTips() {
             <div className="rounded-2xl border border-destructive/30 bg-destructive/8 p-5">
               <p className="text-sm font-bold text-foreground">Play Responsibly</p>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                BRO444 is a real-money earning game — you can win, but you can also lose. Only play with money
-                you can afford to lose. Never chase losses by increasing your bets. Do not share your OTP or
-                withdrawal PIN with anyone, including people claiming to be BRO444 support.
+                BRO444 Game App is a real-money platform — earning potential is genuine, but so is the risk
+                of loss. Only fund your account with money you can afford to lose entirely. Avoid chasing
+                losses by increasing bet sizes. Never share your OTP, withdrawal PIN, or login credentials
+                with anyone — including individuals claiming to represent BRO444 support.
               </p>
             </div>
             <div className="rounded-xl border border-border/60 bg-muted/30 p-4 text-xs text-muted-foreground">
-              BRO444 recommends setting daily deposit and withdrawal limits inside the app settings to help you
-              manage your play responsibly. This is not a permanent source of income.
+              BRO444 Game App strongly recommends activating the daily deposit and loss limit features in your
+              app settings. These controls help you manage play responsibly. Remember — this is not a
+              guaranteed income source.
             </div>
           </div>
         </div>

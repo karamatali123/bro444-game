@@ -1,24 +1,24 @@
 import { CheckCircle2Icon, XCircleIcon } from "lucide-react";
 
 const PROS = [
-  "Free to download — no charge at all",
-  "Supports EasyPaisa and JazzCash for easy local transactions",
-  "500+ games covering slots, live, sports, and fishing",
-  "Fast withdrawals — funds arrive within 5 to 30 minutes",
-  "Regular bonuses and promotions every day",
-  "50% first deposit bonus for new players",
-  "Full Urdu language support",
-  "24/7 customer support via live chat and WhatsApp",
-  "No referral commission turnover — withdraw earnings directly",
-  "Works on Android and iOS (web version for iPhone)",
+  "Completely free download — zero cost to install",
+  "Native EasyPaisa and JazzCash integration for seamless PKR transactions",
+  "500+ games spanning slots, live dealer, sports, and fishing",
+  "Rapid withdrawals — funds reach your wallet within 5 to 30 minutes",
+  "Fresh bonuses and promotional events every day",
+  "Welcome deposit reward for all new players",
+  "Full Urdu language interface throughout the app",
+  "Round-the-clock customer support via live chat and WhatsApp",
+  "Referral earnings withdraw directly — no turnover requirement",
+  "Compatible with Android and iOS (browser version for iPhone)",
 ];
 
 const CONS = [
-  "Requires a stable internet connection for the best experience",
-  "Real money risk — you can lose money if not played responsibly",
-  "Not available on the Google Play Store or Apple App Store",
-  "New users may need time to explore all 8 game categories",
-  "Can become habit-forming if not managed responsibly",
+  "Stable internet connectivity required for the best gameplay experience",
+  "Real money at stake — losses are possible without responsible play",
+  "Unavailable on the Google Play Store or Apple App Store",
+  "First-time users may need a few sessions to explore all 8 categories",
+  "Potential for compulsive use if not managed with discipline",
 ];
 
 export default function Compare() {
@@ -35,10 +35,10 @@ export default function Compare() {
             id="compare-title"
             className="mt-3 font-heading text-3xl font-bold md:text-4xl lg:text-[2.65rem]"
           >
-            Pros and Cons of <span className="text-primary">BRO444 Game</span>
+            Pros and Cons of <span className="text-primary">BRO444 Game App</span>
           </h2>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            Here is an honest look at what BRO444 does well and what to keep in mind before you start playing.
+            An honest breakdown of what BRO444 Game App does well and what you should consider before getting started.
           </p>
         </div>
 
@@ -75,8 +75,8 @@ export default function Compare() {
             </ul>
 
             <div className="mt-8 rounded-xl border border-border/60 bg-card/60 p-4 text-xs text-muted-foreground">
-              BRO444 is a real-money earning platform — always play responsibly and only with money you can
-              afford to lose. Set daily limits and take breaks regularly.
+              BRO444 Game App is a real-money earning platform — always play responsibly and only with
+              funds you can afford to lose. Set daily limits and take regular breaks.
             </div>
           </div>
         </div>
@@ -84,11 +84,11 @@ export default function Compare() {
         {/* Summary table */}
         <div className="mt-10 overflow-x-auto rounded-2xl border border-border bg-card/60">
           <table className="w-full min-w-[480px] text-left text-sm">
-            <caption className="sr-only">BRO444 Game feature comparison table</caption>
+            <caption className="sr-only">BRO444 Game App feature comparison table</caption>
             <thead>
               <tr className="border-b border-border bg-muted/60 text-xs uppercase tracking-wider text-muted-foreground">
                 <th scope="col" className="py-3 pl-5 pr-3 w-1/2">Feature</th>
-                <th scope="col" className="py-3 px-3 w-1/4 text-primary">BRO444 Game</th>
+                <th scope="col" className="py-3 px-3 w-1/4 text-primary">BRO444 Game App</th>
                 <th scope="col" className="py-3 pr-5 pl-3 w-1/4">Other Earning Apps</th>
               </tr>
             </thead>
@@ -97,8 +97,8 @@ export default function Compare() {
                 { feature: "APK size", bro: "14.89 MB", others: "34–40 MB" },
                 { feature: "Minimum deposit", bro: "PKR 100", others: "PKR 300–500" },
                 { feature: "Minimum withdrawal", bro: "PKR 500", others: "PKR 800–1,000" },
-                { feature: "Withdrawal speed", bro: "5–30 minutes", others: "Hours to 3 days" },
-                { feature: "First deposit bonus", bro: "50%", others: "Varies or hidden" },
+                { feature: "Withdrawal speed", bro: "1–5 minutes", others: "Hours to 3 days" },
+                { feature: "Welcome deposit bonus", bro: "Up to 50%", others: "Varies or hidden" },
                 { feature: "Urdu language support", bro: "Yes ✓", others: "Partial" },
                 { feature: "24/7 local support", bro: "Yes ✓", others: "No ✕" },
                 { feature: "JazzCash + Easypaisa", bro: "Yes ✓", others: "Varies" },

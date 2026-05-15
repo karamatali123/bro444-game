@@ -17,7 +17,7 @@ import { APK_URL } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
-  { label: "About BRO444", href: "/#about" },
+  { label: "About BRO444 App", href: "/#about" },
   { label: "20 Reasons to Play", href: "/#features" },
   { label: "App Screenshots", href: "/#screenshots" },
   { label: "Download", href: "/#download" },
@@ -51,7 +51,7 @@ export default function MobileNav() {
       <SheetContent side="right" className="flex flex-col">
         <SheetHeader>
           <SheetTitle className="font-heading text-left text-xl tracking-tight">
-            BRO444 Menu
+            BRO444 App Menu
           </SheetTitle>
         </SheetHeader>
 
@@ -67,7 +67,7 @@ export default function MobileNav() {
           )}
         >
           <DownloadIcon className="size-4" aria-hidden />
-          Download BRO444 — Free
+          Get BRO444 App — Free
         </a>
 
         <Separator className="my-3" />

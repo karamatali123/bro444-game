@@ -4,17 +4,17 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const REGISTER_STEPS = [
-  { n: "01", text: "Open BRO444 Game and tap the Register button." },
-  { n: "02", text: "Enter your Pakistani mobile number or choose a username." },
-  { n: "03", text: "Set a strong password — 6 to 12 characters, no special characters." },
-  { n: "04", text: "Confirm your details and tap Register." },
-  { n: "05", text: "Your account is ready. Start playing straight away." },
+  { n: "01", text: "Launch BRO444 Game App and tap the Register button on the splash screen." },
+  { n: "02", text: "Type your Pakistani mobile number — this becomes your login ID." },
+  { n: "03", text: "Create a password between 6 and 12 characters. Avoid special symbols." },
+  { n: "04", text: "Review your details, then tap Create Account to finalise." },
+  { n: "05", text: "Registration is complete. You can begin playing within seconds." },
 ];
 
 const LOGIN_STEPS = [
-  { n: "01", text: "Open the BRO444 App and tap Login." },
-  { n: "02", text: "Enter your registered phone number or username." },
-  { n: "03", text: "Type your password and tap Sign In." },
+  { n: "01", text: "Open BRO444 Game App and tap the Login button." },
+  { n: "02", text: "Enter your registered mobile number or username." },
+  { n: "03", text: "Type your password and hit Sign In. You're back in." },
 ];
 
 export default function LoginSignup() {
@@ -35,16 +35,16 @@ export default function LoginSignup() {
               id="login-title"
               className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
             >
-              How to Register &amp; Log In to <span className="text-primary">BRO444 Game</span>
+              How to Register &amp; Log In to <span className="text-primary">BRO444 Game App</span>
             </h2>
             <p className="mt-4 text-muted-foreground md:text-lg">
-              Creating a BRO444 account is fast and easy. You only need a valid Pakistani phone number and a
-              password. No unnecessary personal information is asked up front.
+              Setting up a BRO444 Game App account takes under two minutes. All you need is a valid Pakistani
+              phone number and a password — the app never asks for unnecessary personal data during signup.
             </p>
 
             {/* Registration */}
             <div className="mt-8">
-              <h3 className="font-heading text-lg font-bold text-foreground">How to Register</h3>
+              <h3 className="font-heading text-lg font-bold text-foreground">Create Your Account</h3>
               <ol className="mt-4 space-y-3">
                 {REGISTER_STEPS.map((s) => (
                   <li key={s.n} className="flex items-start gap-3">
@@ -59,7 +59,7 @@ export default function LoginSignup() {
 
             {/* Login */}
             <div className="mt-8">
-              <h3 className="font-heading text-lg font-bold text-foreground">How to Log In</h3>
+              <h3 className="font-heading text-lg font-bold text-foreground">Sign Back In</h3>
               <ol className="mt-4 space-y-3">
                 {LOGIN_STEPS.map((s) => (
                   <li key={s.n} className="flex items-start gap-3">
@@ -71,8 +71,8 @@ export default function LoginSignup() {
                 ))}
               </ol>
               <p className="mt-4 text-sm text-muted-foreground">
-                If you forget your password, tap <strong className="text-foreground">Forgot Password</strong> on the
-                login screen. You can reset your password in under one minute using your registered phone number.
+                Forgot your password? Tap <strong className="text-foreground">Forgot Password</strong> on the
+                login screen to reset it via SMS in under a minute using your registered number.
               </p>
             </div>
 
@@ -82,7 +82,7 @@ export default function LoginSignup() {
               rel="noopener noreferrer"
               className={cn(buttonVariants({ size: "lg" }), "mt-8 inline-flex")}
             >
-              Register Now — Free
+              Create Account — Free
             </a>
           </div>
 
@@ -93,7 +93,7 @@ export default function LoginSignup() {
               <div className="relative overflow-hidden rounded-[2.5rem] border-4 border-border/60 shadow-2xl">
                 <Image
                   src="/images/login-register.webp"
-                  alt="BRO444 Game login and registration screen"
+                  alt="BRO444 Game App login and registration screen"
                   width={480}
                   height={1024}
                   className="h-auto w-full"
@@ -101,7 +101,7 @@ export default function LoginSignup() {
                 />
               </div>
               <div className="mt-4 rounded-xl border border-border/60 bg-card/80 px-4 py-3 text-center text-sm text-muted-foreground shadow">
-                Registration takes under <strong className="text-foreground">2 minutes</strong>
+                Account setup completes in under <strong className="text-foreground">2 minutes</strong>
               </div>
             </div>
           </div>

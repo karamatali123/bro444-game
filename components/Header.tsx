@@ -24,7 +24,7 @@ export default function Header() {
           <span className="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border bg-card shadow-sm">
             <Image
               src={BRO44_LOGO.src}
-              alt="BRO444 Game"
+              alt="BRO444 Game App"
               width={BRO44_LOGO.width}
               height={BRO44_LOGO.height}
               className="max-h-8 w-auto object-contain"
@@ -33,7 +33,7 @@ export default function Header() {
             />
           </span>
           <span className="font-heading text-base font-semibold tracking-tight sm:text-lg">
-            BRO444 Game
+            BRO444 Game App
             {host ? (
               <span className="ml-2 hidden text-xs font-normal text-muted-foreground lg:inline">
                 {host}

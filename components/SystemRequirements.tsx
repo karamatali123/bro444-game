@@ -3,26 +3,26 @@ import { CpuIcon, HardDriveIcon, SmartphoneIcon, WifiIcon } from "lucide-react";
 const ANDROID_REQS = [
   {
     label: "Android Version",
-    value: "Android 6.0 (Marshmallow) or higher",
-    note: "Android 10+ recommended for best performance",
+    value: "Android 6.0 (Marshmallow) or newer",
+    note: "Android 10+ delivers the smoothest experience",
     icon: SmartphoneIcon,
   },
   {
     label: "Storage Space",
-    value: "50 MB free space minimum",
-    note: "APK installer is under 12 MB — rest used for game cache",
+    value: "Minimum 50 MB free",
+    note: "APK installer is 14.89 MB — remaining space used for game cache",
     icon: HardDriveIcon,
   },
   {
     label: "RAM",
-    value: "1 GB RAM minimum",
-    note: "2 GB or more recommended for crash and live dealer games",
+    value: "At least 1 GB RAM",
+    note: "2 GB+ recommended for crash games and live dealer streams",
     icon: CpuIcon,
   },
   {
     label: "Internet Connection",
     value: "3G, 4G, or Wi-Fi",
-    note: "4G or Wi-Fi recommended for live dealer and crash rounds",
+    note: "4G or Wi-Fi strongly recommended for live games and fast withdrawals",
     icon: WifiIcon,
   },
 ] as const;
@@ -65,10 +65,12 @@ export default function SystemRequirements() {
             id="sysreq-title"
             className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
           >
-            Does BRO444 Game work on your phone?
+            Can Your Phone Run BRO444 Game App?
           </h2>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            BRO444 Game works on most Android phones sold in Pakistan — including Tecno, Infinix, and Redmi. Check the list below before downloading to make sure your phone can run it. The app is only 12 MB so it installs fast even on phones with little storage.
+            BRO444 Game App runs on the vast majority of Android phones sold across Pakistan — including Tecno,
+            Infinix, Redmi, Samsung, and Realme. Review the specifications below to confirm your device is
+            compatible. The installer is only 14.89 MB, so it fits easily even on phones with limited storage.
           </p>
         </div>
 
@@ -77,7 +79,7 @@ export default function SystemRequirements() {
           {/* Left: Android specs */}
           <div className="rounded-2xl border border-border/80 bg-card/70 p-6 shadow-sm">
             <h3 className="font-heading text-xl font-bold text-foreground">
-              What your phone needs to run BRO444
+              Minimum Specifications for BRO444 Game App
             </h3>
             <ul className="mt-6 space-y-5">
               {ANDROID_REQS.map(({ label, value, note, icon: Icon }) => (
@@ -97,9 +99,9 @@ export default function SystemRequirements() {
             </ul>
 
             <div className="mt-6 rounded-xl border border-primary/30 bg-primary/8 p-4 text-sm text-foreground/90">
-              <strong>iOS / iPhone users:</strong> BRO444 Game does not have a native iOS app. Open{" "}
-              <strong>BRO444.com</strong> in Safari or Chrome on your iPhone to access the mobile web
-              version — no download required.
+              <strong>iOS / iPhone users:</strong> BRO444 Game App does not have a native iOS application. Visit
+              the <strong>official lobby</strong> in Safari or Chrome on your iPhone to access the mobile web
+              version — no download necessary.
             </div>
           </div>
 
@@ -107,7 +109,7 @@ export default function SystemRequirements() {
           <div className="space-y-5">
             <div className="rounded-2xl border border-success/35 bg-success/8 p-6">
               <h3 className="font-heading text-lg font-bold text-foreground">
-                Phones that work with BRO444 in Pakistan
+                Confirmed Compatible Devices in Pakistan
               </h3>
               <ul className="mt-4 space-y-2.5">
                 {COMPATIBLE_DEVICES.map((device) => (
@@ -127,12 +129,12 @@ export default function SystemRequirements() {
 
             <div className="rounded-2xl border border-border/70 bg-muted/25 p-5 text-sm">
               <h3 className="font-heading font-semibold text-foreground">
-                Installation tip for slow internet
+                Tip for slow or unstable connections
               </h3>
               <p className="mt-2 leading-relaxed text-muted-foreground">
-                On 3G or weak 4G, download the APK over Wi-Fi first if possible. The installer is
-                under 12 MB — it takes under 60 seconds even on a 3G connection (around 1 Mbps). Do
-                not close your browser during the download.
+                If you&apos;re on 3G or weak 4G, try downloading the APK over Wi-Fi first. The installer
+                is just 14.89 MB — it finishes in under 60 seconds even at around 1 Mbps. Keep your
+                browser open and screen active until the download completes.
               </p>
             </div>
           </div>
@@ -142,7 +144,7 @@ export default function SystemRequirements() {
         <div className="mt-10 overflow-x-auto rounded-2xl border border-border bg-card/60">
           <table className="w-full min-w-[420px] text-left text-sm">
             <caption className="sr-only">
-              BRO444 Game device compatibility table for Pakistani phones
+              BRO444 Game App device compatibility table for Pakistani phones
             </caption>
             <thead>
               <tr className="border-b border-border bg-muted/60 text-xs uppercase tracking-wider text-muted-foreground">
@@ -150,7 +152,7 @@ export default function SystemRequirements() {
                   Phone Model
                 </th>
                 <th scope="col" className="py-3 px-3 w-1/3">
-                  BRO444 Compatible?
+                  BRO444 Game App Compatible?
                 </th>
                 <th scope="col" className="py-3 pr-5 pl-3 w-1/4">
                   Network
@@ -180,9 +182,9 @@ export default function SystemRequirements() {
         </div>
 
         <p className="mt-4 text-xs text-muted-foreground">
-          Device compatibility is based on Android OS version, not hardware brand. Any Android 6.0+
-          device with 1 GB RAM and 50 MB free storage should run BRO444 Game. If you experience
-          crashes, ensure no background apps are consuming RAM before launching.
+          Compatibility depends on Android OS version, not phone brand. Any Android 6.0+ device with 1 GB
+          RAM and 50 MB free storage should run BRO444 Game App smoothly. If you experience crashes, close
+          background apps before launching to free up RAM.
         </p>
       </div>
     </section>

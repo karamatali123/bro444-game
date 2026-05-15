@@ -8,7 +8,7 @@ const CATEGORIES = [
     tag: "Most Popular",
     color: "text-orange-500",
     bg: "bg-orange-500/10 border-orange-500/30",
-    desc: "The most popular titles trending on BRO444 right now. These games attract the most active players every day with special multipliers and big bonus rounds.",
+    desc: "The hottest titles on BRO444 Game App right now. These games draw the largest player base daily with special multiplier rounds and generous bonus opportunities.",
     games: ["Colour Prediction", "Crash", "Fortune Gems", "Aviator"],
   },
   {
@@ -17,7 +17,7 @@ const CATEGORIES = [
     tag: "Jackpots",
     color: "text-purple-500",
     bg: "bg-purple-500/10 border-purple-500/30",
-    desc: "Hundreds of themed slot machines each with unique symbols, paylines, and bonus features. Progressive jackpot slots accumulate prize pools across all active players.",
+    desc: "A vast library of themed slot machines, each featuring unique symbol combinations, paylines, and bonus mechanics. Progressive jackpots grow across all active players simultaneously.",
     games: ["Fortune Gems 3", "Piggy Bank", "Lucky Spin", "Slot Games"],
   },
   {
@@ -26,7 +26,7 @@ const CATEGORIES = [
     tag: "Card Game",
     color: "text-red-500",
     bg: "bg-red-500/10 border-red-500/30",
-    desc: "Texas Hold'em, Omaha, and other popular poker variants. Low-stakes tables welcome beginners without pressure on their budget.",
+    desc: "Texas Hold'em, Omaha, and other beloved poker variants. Beginner-friendly low-stakes tables let you learn without putting your budget under pressure.",
     games: ["Teen Patti", "Andar Bahar", "Dragon Tiger", "Blackjack"],
   },
   {
@@ -35,7 +35,7 @@ const CATEGORIES = [
     tag: "Live Betting",
     color: "text-green-500",
     bg: "bg-green-500/10 border-green-500/30",
-    desc: "Cricket, football, tennis, and basketball. Pakistani fans love the PSL and international cricket section with live in-play features.",
+    desc: "Cricket, football, tennis, and basketball coverage. Pakistani fans especially love the PSL and international cricket sections with live in-play capabilities.",
     games: ["Cricket (PSL)", "Football", "Tennis", "Basketball"],
   },
   {
@@ -44,7 +44,7 @@ const CATEGORIES = [
     tag: "Live Dealer",
     color: "text-primary",
     bg: "bg-primary/10 border-primary/30",
-    desc: "Real dealers streaming from professional studios in HD. Interact with live hosts in real time with multiple camera angles for an authentic experience.",
+    desc: "Professional dealers streaming from HD studios in real time. Interact with hosts live and watch multiple camera angles for a truly authentic table-game experience.",
     games: ["Teen Patti Live", "Dragon Tiger Live", "Roulette Live", "Baccarat"],
   },
   {
@@ -53,7 +53,7 @@ const CATEGORIES = [
     tag: "Competitive",
     color: "text-cyan-500",
     bg: "bg-cyan-500/10 border-cyan-500/30",
-    desc: "Pakistan's fast-growing competitive gaming community covered with global tournaments. Detailed statistics help you make informed decisions.",
+    desc: "Pakistan's rapidly expanding competitive gaming scene covered with global tournaments. In-depth statistics help you make well-informed choices.",
     games: ["CS:GO", "Dota 2", "League of Legends", "PUBG Mobile"],
   },
   {
@@ -62,7 +62,7 @@ const CATEGORIES = [
     tag: "Casual",
     color: "text-blue-500",
     bg: "bg-blue-500/10 border-blue-500/30",
-    desc: "Aim and shoot at different fish species to collect multiplied prize values. Rare boss fish appearances trigger massive reward multipliers for skilled players.",
+    desc: "Aim at different fish species to collect multiplied prize values. Rare boss fish trigger massive reward multipliers — the more skilled you are, the more you earn.",
     games: ["Ice Fishing", "Fishing Game", "Ocean King", "Fish Party"],
   },
   {
@@ -71,7 +71,7 @@ const CATEGORIES = [
     tag: "Quick Rounds",
     color: "text-yellow-500",
     bg: "bg-yellow-500/10 border-yellow-500/30",
-    desc: "Fair shot at substantial prize pools drawn at scheduled times each day. Affordable ticket prices with special jackpot lotteries during Pakistani festivals.",
+    desc: "Fair-chance draws at scheduled times throughout the day. Affordable entry prices and special jackpot lotteries during Pakistani festivals and holidays.",
     games: ["K3 Lottery", "5D Lottery", "Fortune Coins", "Lucky Number"],
   },
 ];
@@ -85,22 +85,22 @@ export default function Games() {
     >
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-24">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Game categories</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Game library</p>
           <h2
             id="games-title"
             className="mt-3 font-heading text-3xl font-bold md:text-4xl lg:text-[2.65rem]"
           >
-            500+ Games in 8 Categories on <span className="text-primary">BRO444</span>
+            500+ Games Across 8 Categories on <span className="text-primary">BRO444 Game App</span>
           </h2>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            BRO444 has organized over 500 games into eight categories so you can find any game fast. All games share
-            one PKR balance — no need to move money between wallets.
+            BRO444 Game App organises its full library into eight categories so you can jump to any game
+            instantly. Every game shares a single PKR wallet — no transferring funds between accounts.
           </p>
         </div>
 
         <ul
           className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"
-          aria-label="BRO444 game categories"
+          aria-label="BRO444 Game App categories"
         >
           {CATEGORIES.map((c) => (
             <li

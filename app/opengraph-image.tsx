@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 
-export const alt = "BRO444 Game — Download Free APK in Pakistan. 50% Bonus, 500+ Games, JazzCash & Easypaisa";
+export const alt = "BRO444 Game App — Download Free APK in Pakistan. Welcome Bonus, 500+ Games, JazzCash & Easypaisa";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -68,7 +68,7 @@ export default async function OpengraphImage() {
           >
             444
           </div>
-          BRO444 Game · Pakistan
+          BRO444 Game App · Pakistan
         </div>
 
         <div
@@ -81,7 +81,7 @@ export default async function OpengraphImage() {
             display: "block",
           }}
         >
-          50% Bonus · Free APK Download
+          Welcome Bonus · Free APK Download
         </div>
 
         <div
@@ -98,7 +98,7 @@ export default async function OpengraphImage() {
         </div>
 
         <div style={{ marginTop: 40, display: "flex", flexWrap: "wrap", gap: 14 }}>
-          {["50% Welcome Bonus", "500+ Games", "JazzCash & Easypaisa", "Free to Download"].map((t) => (
+          {["Welcome Bonus", "500+ Games", "JazzCash & Easypaisa", "Free to Download"].map((t) => (
             <div
               key={t}
               style={{

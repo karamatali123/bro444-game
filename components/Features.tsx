@@ -24,103 +24,103 @@ import {
 const FEATURES = [
   {
     icon: ZapIcon,
-    title: "Lightning-Fast Interface",
-    body: "BRO444 loads in under two seconds on most smartphones. Smooth animations make every game transition feel premium — you never wait for pages to load.",
+    title: "Blazing-Fast Performance",
+    body: "BRO444 Game App launches in under two seconds on most devices. Fluid transitions between games keep the experience premium — zero lag on page loads.",
   },
   {
     icon: WalletIcon,
-    title: "Real Money App",
-    body: "Players earn real PKR rewards by winning games, completing missions, and referring friends. This is not just entertainment — it is a genuine side income.",
+    title: "Earn Real PKR Rewards",
+    body: "Every win converts to real Pakistani Rupees. Earn through gameplay, daily challenges, and your referral network — this is genuine earning potential, not just entertainment.",
   },
   {
     icon: HeadphonesIcon,
-    title: "24/7 Customer Support",
-    body: "Support is available all day and night via live chat, WhatsApp, or email. Agents speak both Urdu and English so there is no language barrier.",
+    title: "Always-On Support Team",
+    body: "Get help any time — day or night — through live chat, WhatsApp, or email. Support agents are fluent in both Urdu and English for barrier-free communication.",
   },
   {
     icon: GiftIcon,
-    title: "First Deposit Bonus 50%",
-    body: "New users get a 50% bonus on their first deposit. This gives you extra balance to start playing with more confidence from day one.",
+    title: "Welcome Deposit Reward",
+    body: "First-time depositors receive a generous welcome reward that adds extra balance instantly. Start your journey with more credits and greater confidence.",
   },
   {
     icon: ServerIcon,
-    title: "Low Latency Gameplay",
-    body: "Optimized servers ensure ultra-low latency. Game commands execute instantly without delays — even during peak hours.",
+    title: "Optimised Server Network",
+    body: "Dedicated servers deliver ultra-low ping. Every tap registers immediately without lag — even when thousands of players are online simultaneously.",
   },
   {
     icon: ShieldCheckIcon,
-    title: "Secure Encrypted Servers",
-    body: "Your personal and financial information stays fully private. Regular third-party security audits and two-factor authentication keep your account safe.",
+    title: "Bank-Grade Encryption",
+    body: "Your data and finances are guarded by industry-standard encryption. Regular security assessments and two-factor verification keep your account protected.",
   },
   {
     icon: CreditCardIcon,
-    title: "Local Payment Integration",
-    body: "EasyPaisa and JazzCash are built directly into the app. Deposit and withdraw in Pakistani Rupees without any hassle — no bank account needed.",
+    title: "Built-In Local Wallets",
+    body: "EasyPaisa and JazzCash are natively integrated. Top up and withdraw in Pakistani Rupees — hassle-free and no separate bank account necessary.",
   },
   {
     icon: SparklesIcon,
-    title: "Generous Welcome Bonus",
-    body: "Every new player receives a welcome bonus package that activates automatically on your first deposit. No complex steps — just sign up and claim.",
+    title: "Automatic Welcome Package",
+    body: "The welcome bonus activates the moment your first deposit lands. There are no complex opt-in steps — just sign up, fund your account, and claim.",
   },
   {
     icon: CalendarCheckIcon,
-    title: "Daily Check-In Rewards",
-    body: "Log in every day to collect free bonus credits. Consecutive login streaks unlock premium reward tiers — loyal players earn much more over time.",
+    title: "Login Streak Rewards",
+    body: "Open the app daily to collect free bonus credits. Build consecutive login streaks to unlock higher-tier rewards — loyal players earn significantly more.",
   },
   {
     icon: UsersIcon,
-    title: "Referral Earning Program",
-    body: "Invite friends and earn commission every time they play. No cap on how many friends you can invite. Referral commissions can be withdrawn directly.",
+    title: "Unlimited Referral Income",
+    body: "Invite friends and earn commission every time they play. There is no cap on referrals. All commission earnings can be withdrawn immediately.",
   },
   {
     icon: SmartphoneIcon,
-    title: "Mobile-First Design",
-    body: "Built specifically for smartphone screens. Every button and menu fits perfectly on mobile — and the layout adjusts automatically for all screen sizes.",
+    title: "Designed for Mobile First",
+    body: "Every element is engineered for smartphone screens. Buttons, menus, and layouts adapt flawlessly across all display sizes — from budget phones to flagship devices.",
   },
   {
     icon: TrendingUpIcon,
-    title: "Level Up Bonus",
-    body: "Reach higher levels and unlock extra benefits and better rewards. This progress system keeps players motivated and engaged for the long term.",
+    title: "Progressive Level Bonuses",
+    body: "Climb through account levels to access exclusive benefits and improved reward multipliers. This progression system keeps the experience fresh and motivating.",
   },
   {
     icon: GlobeIcon,
-    title: "Urdu Language Support",
-    body: "BRO444 fully supports Urdu throughout its interface. Game instructions appear in simple, easy-to-understand Urdu — no language barrier for anyone.",
+    title: "Complete Urdu Interface",
+    body: "BRO444 Game App provides full Urdu language coverage across every screen. Game instructions, menus, and support — all available in your preferred language.",
   },
   {
     icon: VideoIcon,
-    title: "Live Game Experience",
-    body: "Play with real live dealers streamed in HD. Multiple camera angles give you the authentic feel of a real table — proving the game is 100% fair.",
+    title: "HD Live Dealer Games",
+    body: "Join real live dealers streamed in high definition. Multiple camera angles deliver the authentic table-game atmosphere — proof that every hand is fair.",
   },
   {
     icon: UserPlusIcon,
-    title: "Instant Account Registration",
-    body: "Registration completes in under two minutes. You only need a phone number and a password of 6–12 characters. Start playing within minutes of signing up.",
+    title: "Two-Minute Registration",
+    body: "Creating an account takes under two minutes. Just enter your phone number and set a secure password. You can be playing within moments of signing up.",
   },
   {
     icon: TrophyIcon,
-    title: "Wide Sports Coverage",
-    body: "Cricket, football, basketball and more. Pakistani fans love the cricket section for PSL and international matches with live in-play options.",
+    title: "Sports & Cricket Coverage",
+    body: "Cricket, football, basketball, and more. Pakistani fans especially love the PSL section with live in-play features and real-time match updates.",
   },
   {
     icon: CheckCircle2Icon,
-    title: "Fair and Transparent RNG System",
-    body: "BRO444 uses a certified Random Number Generator for all game outcomes. Independent auditors verify accuracy regularly — every result is fair and unbiased.",
+    title: "Certified Fair Outcomes",
+    body: "A verified Random Number Generator determines all game results. Independent testing confirms accuracy — ensuring every round is genuinely unbiased.",
   },
   {
     icon: PartyPopperIcon,
-    title: "Regular Promotions and Events",
-    body: "Eid, New Year, and cricket season bring special reward packages. Weekly missions and surprise flash promotions give you extra ways to earn.",
+    title: "Seasonal Events & Campaigns",
+    body: "Eid, New Year, and cricket season unlock special reward campaigns. Weekly missions and surprise flash events give you extra ways to boost earnings.",
   },
   {
     icon: ArrowUpDownIcon,
-    title: "Flexible Deposit and Withdrawal Limits",
-    body: "Minimum deposit starts from just PKR 100. Withdrawal limits go up as your account level increases — suitable for both casual and serious players.",
+    title: "Scalable Deposit & Withdrawal Limits",
+    body: "Start depositing from just PKR 100. As your account level grows, withdrawal limits increase automatically — perfect for casual and committed players alike.",
   },
   {
     icon: PercentIcon,
-    title: "Daily Rebate Bonus",
-    body: "Claim a daily rebate bonus the next day. The rebate amount is added to your account every day at 12 AM — a guaranteed boost to your daily income.",
+    title: "Automatic Daily Rebate",
+    body: "A daily rebate bonus posts to your account every midnight automatically. It is a guaranteed balance boost that rewards consistent play.",
   },
 ];
 
@@ -133,22 +133,23 @@ export default function Features() {
     >
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-24">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Top key features</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Key advantages</p>
           <h2
             id="features-title"
             className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
           >
-            20 Reasons to Play <span className="text-primary">BRO444 Game</span>
+            20 Reasons <span className="text-primary">BRO444 Game App</span> Leads the Pack
           </h2>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            BRO444 is built specifically for Pakistani players — fast JazzCash withdrawals, Urdu support, real bonuses,
-            and 500+ games. Here is everything that makes BRO444 the best earning app in Pakistan.
+            Built from the ground up for Pakistani players — lightning-fast JazzCash payouts, native Urdu support,
+            genuine bonuses, and a library of 500+ games. Discover everything that makes BRO444 Game App the
+            smartest choice for mobile earnings in Pakistan.
           </p>
         </div>
 
         <ul
           className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4"
-          aria-label="BRO444 Game features"
+          aria-label="BRO444 Game App features"
         >
           {FEATURES.map(({ icon: Icon, title, body }, i) => (
             <li

@@ -4,14 +4,14 @@ import Image from "next/image";
 import { useState } from "react";
 
 const SCREENSHOTS = [
-  { src: "/images/screenshots/screen-1.webp", alt: "BRO444 Game home screen", label: "Home" },
-  { src: "/images/screenshots/screen-2.webp", alt: "BRO444 Game interface", label: "Game Lobby" },
-  { src: "/images/screenshots/screen-3.webp", alt: "BRO444 bonus box screen", label: "Bonuses" },
-  { src: "/images/screenshots/screen-4.webp", alt: "BRO444 rewards screen", label: "Rewards" },
-  { src: "/images/screenshots/screen-5.webp", alt: "BRO444 registration screen", label: "Register" },
-  { src: "/images/screenshots/screen-6.webp", alt: "BRO444 referral interface", label: "Referral" },
-  { src: "/images/screenshots/screen-7.webp", alt: "BRO444 referral program", label: "Invite Friends" },
-  { src: "/images/screenshots/screen-8.webp", alt: "BRO444 withdrawal dashboard", label: "Withdraw" },
+  { src: "/images/screenshots/screen-1.webp", alt: "BRO444 Game App home screen", label: "Home" },
+  { src: "/images/screenshots/screen-2.webp", alt: "BRO444 Game App interface", label: "Game Lobby" },
+  { src: "/images/screenshots/screen-3.webp", alt: "BRO444 Game App bonus box screen", label: "Bonuses" },
+  { src: "/images/screenshots/screen-4.webp", alt: "BRO444 Game App rewards screen", label: "Rewards" },
+  { src: "/images/screenshots/screen-5.webp", alt: "BRO444 Game App registration screen", label: "Register" },
+  { src: "/images/screenshots/screen-6.webp", alt: "BRO444 Game App referral interface", label: "Referral" },
+  { src: "/images/screenshots/screen-7.webp", alt: "BRO444 Game App referral program", label: "Invite Friends" },
+  { src: "/images/screenshots/screen-8.webp", alt: "BRO444 Game App withdrawal dashboard", label: "Withdraw" },
 ];
 
 export default function AppScreenshots() {
@@ -30,10 +30,11 @@ export default function AppScreenshots() {
             id="screenshots-title"
             className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
           >
-            See <span className="text-primary">BRO444 Game</span> Inside the App
+            Inside <span className="text-primary">BRO444 Game App</span> — Real Screenshots
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground md:text-lg">
-            Here is what BRO444 looks like on your phone — from the game lobby to bonuses, referrals, and withdrawals.
+            Preview what BRO444 Game App looks like on your phone — from the game lobby and bonus box to
+            the referral dashboard and withdrawal screen. What you see here is what you get.
           </p>
         </div>
 
@@ -89,9 +90,9 @@ export default function AppScreenshots() {
             <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-2">
               {[
                 { v: "500+", label: "Games available" },
-                { v: "25K+", label: "Downloads" },
+                { v: "30K+", label: "Total downloads" },
                 { v: "PKR 100", label: "Min deposit" },
-                { v: "1–5 min", label: "Withdrawal speed" },
+                { v: "1–5 min", label: "Avg withdrawal" },
               ].map((x) => (
                 <div key={x.label} className="rounded-xl border border-border/60 bg-card/60 px-4 py-3 text-center">
                   <div className="font-heading text-xl font-bold text-primary">{x.v}</div>

@@ -8,19 +8,19 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const APP_INFO = [
-  { label: "App Name", value: "BRO444 Game" },
+  { label: "App Name", value: "BRO444 Game App" },
   { label: "Version", value: "V2.4.85" },
   { label: "Size", value: "14.89 MB" },
   { label: "Licence", value: "Free" },
-  { label: "Downloads", value: "25K+" },
-  { label: "Last Updated", value: "14 May, 2026" },
+  { label: "Downloads", value: "30K+" },
+  { label: "Last Updated", value: "15 May, 2026" },
 ];
 
 const STATS = [
-  { k: "First Deposit Bonus", v: "50%", sub: "On your first deposit" },
-  { k: "Withdrawal Speed", v: "1–5 Min", sub: "JazzCash · Easypaisa" },
-  { k: "APK Size", v: "14.89 MB", sub: "Works on 3G too" },
-  { k: "Support", v: "24/7 Urdu", sub: "Live chat always open" },
+  { k: "Welcome Bonus", v: "Up to 50%", sub: "First deposit reward" },
+  { k: "Payout Speed", v: "1–5 Min", sub: "JazzCash · Easypaisa" },
+  { k: "Lightweight APK", v: "14.89 MB", sub: "Runs even on 3G" },
+  { k: "Live Help", v: "24/7 Urdu", sub: "In-app chat support" },
 ];
 
 export default function Hero() {
@@ -47,10 +47,10 @@ export default function Hero() {
                   className="size-2 rounded-full bg-green-500 motion-safe:animate-pulse"
                   aria-hidden
                 />
-                Live · Pakistani players online
+                Live · Players active now
               </span>
               <span className="rounded-full border border-border/60 bg-muted/40 px-3 py-1 text-xs font-medium text-muted-foreground">
-                Official Site
+                Official Platform
               </span>
             </div>
 
@@ -59,11 +59,11 @@ export default function Hero() {
               className="font-heading text-4xl font-bold tracking-tight sm:text-5xl lg:text-[3.4rem] lg:leading-[1.06]"
             >
               <span className="bg-linear-to-br from-primary via-yellow-300/95 to-[oklch(0.88_0.12_75)] bg-clip-text text-transparent dark:via-yellow-200/85">
-                BRO444 Game
+                BRO444 Game App
               </span>
               <span className="text-foreground/90">
                 {" "}
-                — Official Earning APK for Android &amp; iOS in Pakistan
+                — Download Free Earning APK in Pakistan
               </span>
             </h1>
 
@@ -79,7 +79,7 @@ export default function Hero() {
                 )}
               >
                 <DownloadIcon className="size-4" aria-hidden />
-                Download BRO444 APK — Free
+                Get BRO444 App — Free Download
               </a>
               <Link
                 href="/#games"
@@ -88,20 +88,20 @@ export default function Hero() {
                   "w-full justify-center border-primary/40 sm:w-auto",
                 )}
               >
-                View All Games →
+                Explore All Games →
               </Link>
             </div>
 
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              BRO444 Game is Pakistan's fastest growing earning app. Play colour
-              prediction, crash, K3 lottery, Teen Patti, and more — all in one
-              app. Deposit and withdraw using{" "}
+              BRO444 Game App brings all your favourite earning games together in
+              a single lightweight platform. Enjoy colour prediction, crash rounds,
+              K3 lottery, Teen Patti, and hundreds more — deposit and cash out with{" "}
               <strong className="text-primary">JazzCash</strong> or{" "}
-              <strong className="text-primary">Easypaisa</strong>. Get a{" "}
+              <strong className="text-primary">Easypaisa</strong>. Claim your{" "}
               <strong className="text-foreground">
-                50% bonus on your first deposit
+                welcome bonus on your very first deposit
               </strong>
-              . Download free — only 14.89 MB.
+              . Download now — just 14.89 MB.
             </p>
 
             {/* Stats grid */}
@@ -131,15 +131,15 @@ export default function Hero() {
                   className="size-3.5 text-green-500"
                   aria-hidden
                 />{" "}
-                Safe official download
+                Verified safe download
               </span>
               <span className="flex items-center gap-1.5">
                 <ZapIcon className="size-3.5 text-primary" aria-hidden />{" "}
-                Instant registration
+                Quick registration
               </span>
               <span className="flex items-center gap-1.5">
                 <DownloadIcon className="size-3.5 text-primary" aria-hidden />{" "}
-                Android &amp; iOS support
+                Android &amp; iOS ready
               </span>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Hero() {
                 <div className="flex items-center gap-3">
                   <Image
                     src={BRO44_LOGO.src}
-                    alt="BRO444 Game logo"
+                    alt="BRO444 Game App logo"
                     width={BRO44_LOGO.width}
                     height={BRO44_LOGO.height}
                     className="h-14 w-auto max-w-[4.5rem] object-contain"
@@ -165,10 +165,10 @@ export default function Hero() {
                   />
                   <div>
                     <div className="font-heading font-bold text-foreground">
-                      BRO444 Game
+                      BRO444 Game App
                     </div>
                     <div className="text-xs text-muted-foreground">
-                      Official Earning App · Pakistan
+                      Trusted Earning Platform · PK
                     </div>
                     <div className="mt-1 flex items-center gap-1">
                       {Array.from({ length: 5 }).map((_, i) => (
@@ -177,7 +177,7 @@ export default function Hero() {
                         </span>
                       ))}
                       <span className="text-[0.65rem] text-muted-foreground ml-1">
-                        4.8/5
+                        4.9/5
                       </span>
                     </div>
                   </div>
@@ -199,8 +199,8 @@ export default function Hero() {
                 </div>
 
                 <div className="mt-4 rounded-xl border border-green-500/30 bg-green-500/10 px-3 py-2 text-xs text-green-600 dark:text-green-400">
-                  ✓ Safe to download · No hidden fees · Works on JazzCash &amp;
-                  Easypaisa
+                  ✓ Safe to install · Zero hidden fees · JazzCash &amp;
+                  Easypaisa accepted
                 </div>
 
                 <a
@@ -213,7 +213,7 @@ export default function Hero() {
                   )}
                 >
                   <DownloadIcon className="size-4" aria-hidden />
-                  Download Now — Free
+                  Get It Now — Free
                 </a>
               </div>
             </div>

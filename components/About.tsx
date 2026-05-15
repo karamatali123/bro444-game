@@ -7,12 +7,12 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const HIGHLIGHTS = [
-  "Free to download on Android and iOS",
-  "JazzCash and Easypaisa payments — no bank needed",
-  "50% bonus on your first deposit",
-  "24/7 Urdu customer support",
-  "One of the highest winning rates in Pakistan",
-  "500+ games in one app",
+  "Completely free — zero cost to download or install",
+  "JazzCash & Easypaisa integration — no bank required",
+  "Welcome bonus waiting on your first deposit",
+  "Round-the-clock Urdu-speaking support team",
+  "Among the best payout rates in Pakistan's mobile gaming space",
+  "500+ titles across 8 game categories",
 ];
 
 export default function About() {
@@ -26,22 +26,24 @@ export default function About() {
         {/* Overview */}
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Overview of BRO444</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Platform overview</p>
             <h2
               id="about-title"
               className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
             >
-              What is <span className="text-primary">BRO444 Game</span>?
+              What is <span className="text-primary">BRO444 Game App</span>?
             </h2>
             <p className="mt-4 text-muted-foreground md:text-lg">
-              The BRO444 Game integrates local payment methods for seamless transactions. You can deposit and withdraw
-              using EasyPaisa and JazzCash with ease. Pakistani users never face barriers when accessing their funds.
-              The platform also uses advanced encryption to keep your data safe.
+              BRO444 Game App connects you to Pakistan's favourite earning games through a single lightweight
+              application. Every transaction — from adding funds to cashing out winnings — flows through
+              EasyPaisa or JazzCash without requiring a bank account. The platform employs modern encryption
+              protocols to safeguard your personal and financial data at every step.
             </p>
             <p className="mt-4 text-muted-foreground md:text-lg">
-              BRO444 is completely free to download on Android and iOS. You do not need to pay any fee to start
-              playing. It carries one of the highest winning rates in Pakistan's mobile gaming market. Begin your
-              journey toward exciting daily rewards today.
+              Installing BRO444 Game App costs nothing on both Android and iOS devices. There are no hidden
+              fees, no subscriptions, and no premium tiers to unlock the full experience. The platform
+              consistently delivers some of the best payout rates available in Pakistan's mobile gaming
+              market. Start playing today and see why thousands of players trust this app.
             </p>
             <ul className="mt-6 space-y-2.5">
               {HIGHLIGHTS.map((h) => (
@@ -57,7 +59,7 @@ export default function About() {
               rel="noopener noreferrer"
               className={cn(buttonVariants({ size: "lg" }), "mt-8 inline-flex")}
             >
-              Download BRO444 — Free
+              Get BRO444 App — Free
             </a>
           </div>
 
@@ -66,7 +68,7 @@ export default function About() {
             <div className="relative overflow-hidden rounded-2xl border border-border/70 shadow-xl">
               <Image
                 src="/images/overview.webp"
-                alt="BRO444 Game overview — Pakistan earning app"
+                alt="BRO444 Game App overview — earning platform Pakistan"
                 width={600}
                 height={450}
                 className="h-auto w-full object-cover"
@@ -82,7 +84,7 @@ export default function About() {
             <div className="overflow-hidden rounded-2xl border border-border/70 shadow-xl">
               <Image
                 src="/images/what-is-bro444.webp"
-                alt="BRO444 Game APK — online earning game Pakistan"
+                alt="BRO444 Game App APK — mobile earning platform Pakistan"
                 width={800}
                 height={430}
                 className="h-auto w-full object-cover"
@@ -92,32 +94,32 @@ export default function About() {
           </div>
 
           <div className="order-1 lg:order-2">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">What is it?</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">About the APK</p>
             <h3 className="mt-3 font-heading text-2xl font-bold tracking-tight md:text-3xl">
-              What is the <span className="text-primary">BRO444 Game APK</span>?
+              Why Choose the <span className="text-primary">BRO444 Game App APK</span>?
             </h3>
             <div className="mt-4 space-y-4 text-muted-foreground md:text-lg">
               <p>
-                The BRO444 APK is a dedicated mobile application built for online gaming. It gives users access to
-                hundreds of game categories in one place. Its lightweight design ensures smooth performance on most
-                Android and iOS devices without consuming too much storage space.
+                The BRO444 Game App APK is a purpose-built mobile application designed to deliver a seamless
+                earning experience. It packages hundreds of game categories into a compact file that runs
+                efficiently on virtually any Android or iOS device — even those with limited storage.
               </p>
               <p>
-                The app provides fair, fun, and real cash-rewarding gameplay made for Pakistan's mobile-savvy
-                audience. The interface uses simple Urdu and English prompts so even first-time players can navigate
-                without any confusion.
+                What sets this app apart is its commitment to fairness and accessibility. The interface blends
+                simple Urdu and English prompts so that first-time users can navigate every feature without
+                confusion. Cash rewards are genuine, transparent, and processed quickly through local wallets.
               </p>
               <p>
-                BRO444 Game is gaining massive traction because of its transparent reward system. Players earn
-                bonuses from their very first login. The app updates regularly to add new games and exciting
-                promotional offers — so there is always something new waiting for you.
+                BRO444 Game App is rapidly gaining popularity thanks to its generous reward structure. New
+                players receive bonuses from their very first session. Frequent updates bring fresh games and
+                seasonal promotions — ensuring the experience never goes stale.
               </p>
             </div>
             <Link
               href="/#download"
               className={cn(buttonVariants({ variant: "outline", size: "lg" }), "mt-6 inline-flex border-primary/40")}
             >
-              How to Download →
+              Installation Guide →
             </Link>
           </div>
         </div>

@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-/** Full mobile register UI + top crop emphasizing the Login navigation (same BRO444 shell). */
+/** Full mobile register UI + top crop emphasising the Login navigation (same BRO444 shell). */
 
 const REGISTER = {
   src: "/images/bro444-register-screen.webp",
   w: 480,
   h: 1024,
   alt:
-    "BRO444.com mobile registration screen on a dark teal cricket-themed backdrop: BRO444.com wordmark header, bold yellow Register heading, Already have an account? Login link, mobile number and password fields with show/hide icons, age and Terms & Conditions checkbox, promotions opt-in, and yellow Register button.",
+    "BRO444 Game App mobile registration screen on a dark teal cricket-themed backdrop: BRO444 wordmark header, bold yellow Register heading, Already have an account? Login link, mobile number and password fields with show/hide icons, age and Terms & Conditions checkbox, promotions opt-in, and yellow Register button.",
 };
 
 const LOGIN_ENTRY = {
@@ -15,7 +15,7 @@ const LOGIN_ENTRY = {
   w: 480,
   h: 440,
   alt:
-    "Top of the BRO444.com mobile register screen showing the yellow back control, BRO444.com title, bold yellow Register heading, and the Already have an account? Login link that returning players use before entering mobile number and password on the login step.",
+    "Top of the BRO444 Game App mobile register screen showing the yellow back control, BRO444 title, bold yellow Register heading, and the Already have an account? Login link that returning players use before entering mobile number and password on the login step.",
 };
 
 export default function AppAuthScreens() {
@@ -34,19 +34,20 @@ export default function AppAuthScreens() {
             id="app-account-title"
             className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl"
           >
-            Register &amp; login on <span className="text-primary">BRO444.com</span>
+            Register &amp; Login on <span className="text-primary">BRO444 Game App</span>
           </h2>
           <p className="mt-4 text-muted-foreground md:text-lg">
-            Same yellow-on-teal BRO444 shell you see in ads — OTP signup, password toggles, promo opt-in, and legal
-            acceptance before your first JazzCash hit. Editorial note: never screen-share OTP entry; guild “helpers” who
-            ask for codes are not official support.
+            The familiar yellow-on-teal BRO444 interface you see in promotional content — OTP-based signup,
+            password toggles, promotional opt-in, and legal acceptance all happen before your first JazzCash
+            transaction. Safety note: never screen-share your OTP entry — so-called &quot;guild helpers&quot;
+            requesting codes are not official support.
           </p>
         </div>
 
         <div className="mt-12 grid gap-10 md:grid-cols-2 md:gap-12">
           <figure className="flex flex-col items-center rounded-2xl border border-border/80 bg-muted/25 p-4 shadow-sm">
             <figcaption className="mb-4 w-full text-center font-heading font-semibold text-foreground">
-              Register screen — full form
+              Registration screen — complete form
             </figcaption>
             <div className="flex w-full justify-center rounded-xl border border-border/60 bg-black/40 p-2 shadow-lg">
               <Image

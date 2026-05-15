@@ -5,20 +5,20 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const REFERRAL_STEPS = [
-  { n: "01", text: "Log in to your BRO444 account and go to the Referral section." },
-  { n: "02", text: "Copy your unique referral link from the app." },
-  { n: "03", text: "Share the link on WhatsApp, Facebook, or any other platform." },
-  { n: "04", text: "You earn a commission when someone joins using your link and makes a deposit." },
-  { n: "05", text: "The referral bonus grows with the number of valid players you invite." },
-  { n: "06", text: "A valid player needs to deposit PKR 500 and play games worth PKR 5,000." },
+  { n: "01", text: "Sign in to BRO444 Game App and navigate to the Referral section from the menu." },
+  { n: "02", text: "Copy your personal referral link — it's unique to your account." },
+  { n: "03", text: "Share the link via WhatsApp, Facebook, SMS, or any social platform you use." },
+  { n: "04", text: "When a friend registers through your link and funds their account, you earn commission." },
+  { n: "05", text: "Commission scales upward — the more active referrals you bring, the higher your rate." },
+  { n: "06", text: "A referral qualifies after depositing PKR 500 and accumulating PKR 5,000 in gameplay." },
 ];
 
 const TIERS = [
-  { name: "Bronze", perk: "Start withdrawing money and earn basic cashback on every game" },
-  { name: "Silver", perk: "Withdraw more money at once — your requests are reviewed faster" },
-  { name: "Gold", perk: "Get paid out sooner — better cashback and bonus offers" },
-  { name: "Platinum", perk: "Jump the support queue — earn more from every friend you invite" },
-  { name: "Diamond", perk: "Highest withdrawal limits — up to PKR 500,000 per transaction" },
+  { name: "Bronze", perk: "Unlock withdrawals and earn standard cashback across all game categories" },
+  { name: "Silver", perk: "Higher single-withdrawal limits with expedited review processing times" },
+  { name: "Gold", perk: "Priority payout queue, improved cashback rates, and exclusive bonus drops" },
+  { name: "Platinum", perk: "VIP-only support channel, elevated referral commissions, and flash event access" },
+  { name: "Diamond", perk: "Maximum withdrawal ceiling — up to PKR 500,000 per transaction, plus personal account manager" },
 ] as const;
 
 export default function ReferralVIP() {
@@ -37,21 +37,21 @@ export default function ReferralVIP() {
               id="referral-title"
               className="mt-3 font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.65rem]"
             >
-              Earn Money by Inviting Friends to <span className="text-primary">BRO444</span>
+              Earn Passive Income by Inviting Friends to <span className="text-primary">BRO444 Game App</span>
             </h2>
             <p className="mt-4 text-muted-foreground md:text-lg">
-              The BRO444 referral program turns your social network into a source of passive income. You earn a
-              commission every time a referred friend plays. There is no cap on how many friends you can invite.
-              Referral commissions can be withdrawn directly — no play-through required.
+              BRO444 Game App&apos;s referral programme converts your social circle into a reliable income stream.
+              Every qualifying referral generates commission that deposits directly into your wallet — no
+              play-through requirement, no cap on invitations. The more friends who join, the more you earn.
             </p>
 
             {/* Key benefits */}
             <div className="mt-6 grid grid-cols-2 gap-3">
               {[
-                { icon: UsersIcon, label: "No cap on invites", sub: "Invite as many friends as you want" },
-                { icon: WalletIcon, label: "Direct withdrawal", sub: "Referral income goes straight to your wallet" },
-                { icon: ShareIcon, label: "Share anywhere", sub: "WhatsApp, Facebook, Instagram" },
-                { icon: CrownIcon, label: "Grows with VIP", sub: "Higher VIP = bigger referral commission" },
+                { icon: UsersIcon, label: "Unlimited invitations", sub: "There is no ceiling on referral count" },
+                { icon: WalletIcon, label: "Instant withdrawals", sub: "Commission goes straight to your wallet" },
+                { icon: ShareIcon, label: "Share on any channel", sub: "WhatsApp, Facebook, Instagram, SMS" },
+                { icon: CrownIcon, label: "VIP-linked rates", sub: "Higher VIP tier = bigger commission %" },
               ].map(({ icon: Icon, label, sub }) => (
                 <div key={label} className="rounded-xl border border-border/60 bg-card/60 p-3">
                   <Icon className="size-4 text-primary" aria-hidden />
@@ -62,7 +62,7 @@ export default function ReferralVIP() {
             </div>
 
             {/* Steps */}
-            <h3 className="mt-8 font-heading text-lg font-bold text-foreground">How to Invite Friends</h3>
+            <h3 className="mt-8 font-heading text-lg font-bold text-foreground">How the Referral Process Works</h3>
             <ol className="mt-4 space-y-3">
               {REFERRAL_STEPS.map((s) => (
                 <li key={s.n} className="flex items-start gap-3">
@@ -81,7 +81,7 @@ export default function ReferralVIP() {
               className={cn(buttonVariants({ size: "lg" }), "mt-8 inline-flex gap-2")}
             >
               <ShareIcon className="size-4" aria-hidden />
-              Start Inviting — Earn Now
+              Start Referring — Earn Instantly
             </a>
           </div>
 
@@ -89,11 +89,11 @@ export default function ReferralVIP() {
           <div className="rounded-2xl border border-border/80 bg-card/70 p-6 shadow-sm">
             <div className="flex items-center gap-2">
               <CrownIcon className="size-5 text-primary" aria-hidden />
-              <h3 className="font-heading text-lg font-semibold text-foreground">BRO444 VIP Levels — Bronze to Diamond</h3>
+              <h3 className="font-heading text-lg font-semibold text-foreground">BRO444 Game App VIP Tiers — Bronze to Diamond</h3>
             </div>
             <p className="mt-2 text-sm text-muted-foreground">
-              The more you play, the higher your VIP level. Higher levels mean bigger withdrawals, faster payouts,
-              and better cashback. Your level goes up automatically based on your play history.
+              Your VIP tier advances automatically based on cumulative play activity. Higher tiers unlock larger
+              withdrawal limits, faster processing, and richer cashback — no manual application needed.
             </p>
             <ol className="mt-6 space-y-4">
               {TIERS.map((t, i) => (
@@ -109,7 +109,7 @@ export default function ReferralVIP() {
               ))}
             </ol>
             <div className="mt-6 rounded-xl border border-primary/30 bg-primary/8 p-3 text-xs text-foreground/85">
-              VIP levels are calculated automatically inside the app. Check your current tier in the Member section.
+              VIP progression is calculated automatically inside BRO444 Game App. Check your current tier in the Member Centre.
             </div>
           </div>
         </div>

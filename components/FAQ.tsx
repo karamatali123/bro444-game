@@ -15,10 +15,10 @@ export default function FAQ() {
       <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 md:py-24">
         <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Questions and answers</p>
         <h2 id="faq-title" className="mt-3 font-heading text-3xl font-bold md:text-4xl">
-          Common questions about BRO444 Game
+          Frequently Asked Questions About BRO444 Game App
         </h2>
         <p className="mt-3 text-muted-foreground md:text-lg">
-          Real questions from Pakistani players — about bonuses, withdrawals, how to download safely, and how referrals work. Plain answers, no confusing language.
+          Genuine questions from Pakistani players — about bonuses, withdrawals, safe download links, and referral commissions. Straightforward answers, no confusing language.
         </p>
 
         <Accordion multiple className="mt-10">

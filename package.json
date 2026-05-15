@@ -1,8 +1,8 @@
 {
-  "name": "bro44game",
+  "name": "bro44gameapp",
   "version": "0.1.0",
   "private": true,
-  "description": "BRO444 Game official site — Next.js landing for APK, login & register (Pakistan).",
+  "description": "BRO444 Game App official site — Next.js landing for APK, login & register (Pakistan).",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
