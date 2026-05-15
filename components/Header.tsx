@@ -34,11 +34,6 @@ export default function Header() {
           </span>
           <span className="font-heading text-base font-semibold tracking-tight sm:text-lg">
             BRO444 Game App
-            {host ? (
-              <span className="ml-2 hidden text-xs font-normal text-muted-foreground lg:inline">
-                {host}
-              </span>
-            ) : null}
           </span>
         </Link>
 
